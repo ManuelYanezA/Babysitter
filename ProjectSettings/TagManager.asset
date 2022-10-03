@@ -9,6 +9,7 @@ TagManager:
   - Interactable
   - BoundaryManager
   - Boundary
+  - EnemyTeleport
   layers:
   - Default
   - TransparentFX

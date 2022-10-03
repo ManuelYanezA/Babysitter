@@ -25,7 +25,7 @@ public class EnemyTeleport : MonoBehaviour
     {
         do
         {
-            teleportX = Random.Range(-30f, 60f);
+            teleportX = Random.Range(-15f, 30f);
             teleportY = Random.Range(16f, -10f);
         }while((teleportX < Player.transform.position.x + 4 && teleportX > Player.transform.position.x - 4) || (teleportY < Player.transform.position.y + 4 && teleportY > Player.transform.position.y - 4));
         teleportPosition = new Vector2(teleportX, teleportY);

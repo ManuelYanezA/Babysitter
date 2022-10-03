@@ -12,7 +12,10 @@ public class InteractableObject : CollidableObject
         //Debug.Log("Collided with "+ gameObject.name);
         if(Input.GetKey(KeyCode.Z))
         {
-            OnInteract();
+            if(gameObject.name == "Player")
+            {
+                OnInteract();
+            }
         }
     }
 

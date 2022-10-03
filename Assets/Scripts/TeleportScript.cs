@@ -17,7 +17,7 @@ public class TeleportScript : InteractableObject
 
             Invoke("Teleport", 0.2f);
 
-            //Debug.Log("Interacted with " + name);
+            Debug.Log("Interacted with " + name);
         }
     }
 
